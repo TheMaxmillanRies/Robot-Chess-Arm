@@ -5,6 +5,7 @@ Robotics side-project consisting of building and coding a robotic arm to play ch
 The code is broken down into several sections, though currently messily put together.
 
 ### Motion Control
+The Motion Control portion of the robot was built using severak servo motors and the use of Peter Corke's library for any inverse kinematic calculations. The joints were represented using his internal classes.
 
 ### Chess Board Detection
 The chess board detection is a complicated ensemble of attempted techniques to recognize the state of the board. To do this, there are 2 kinds of datasets obtained, 1 RGB image from the board and 1 depth map from the Intel RealSense camera. In principle there are 2 schools of thought:
